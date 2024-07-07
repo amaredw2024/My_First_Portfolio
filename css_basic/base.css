@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
 article {
+    background-color: aqua;
 }
 header {
 	border-bottom: 1px solid rgb(221,221,221);
@@ -187,10 +188,10 @@ h6 {
 	margin: 5px 0;
 }
 
-@media (max-width: 800px) {
-  body.works_on_smartphone {
-  	display: block;
-  }
+    @media (max-width: 800px) {
+    body.works_on_smartphone {
+    display: block;
+    }
   body.works_on_smartphone main {
   	display: block;
   }
